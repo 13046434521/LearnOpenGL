@@ -18,5 +18,8 @@
     <ClCompile Include="Source.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="includes\glad\glad.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

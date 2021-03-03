@@ -70,8 +70,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>G:\VisualProject\LearnOpenGL\LearnOpenGL\Libraries\Include;$(IncludePath)</IncludePath>
-    <LibraryPath>G:\VisualProject\LearnOpenGL\LearnOpenGL\Libraries\Libs;$(LibraryPath)</LibraryPath>
+    <IncludePath>G:\VisualProject\LearnOpenGL\LearnOpenGL\includes;$(IncludePath)</IncludePath>
+    <LibraryPath>G:\VisualProject\LearnOpenGL\LearnOpenGL\libs;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="includes\glad\glad.c" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
